@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+	{% for photo in photos.items %}
+		<a href="{{ url_for('main.photo', id=photo.id) }}">
+			<img src="{{ url_for('main.static', filename=photo.photo) }}" alt="{{ photo.description }}">
+		</a>
+		<hr>
+	{% endfor %}
+    <br>
+
+    {% for page in pages %}
+        {% if page %}
+            {% if photos.page == page %}
+                <a href="{{ url_for('main.photo', page=page) }}" class="btn btn-info md-1">{{ page }}</a>
+            {% else %}
+                <a href="{{ url_for('main.photo', page=page) }}" class="btn btn-outline-info md-1">{{ page }}</a>
+            {% endif %}
+        {% else %}
+            ...
+        {% endif %}
+    {% endfor %}
+	<a class="btn btn-success" href="{{ url_for('main.add_photo') }}">Add Photo</a>
+{% endblock content %}
+
