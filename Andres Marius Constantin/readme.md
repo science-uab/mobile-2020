@@ -1,6 +1,7 @@
 # DotsNBoxes
 Aplicatie Programarea Dispozitivelor Mobile
 
+
 #SDK Folosit: Android Studio
 #Versiune Android testata: 8.0
 #Dimensiune Display testata: 6"
