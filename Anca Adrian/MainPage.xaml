@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="aplicatie.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+
+
+        <Label Text="Nu exploda bomba!" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+
+
+        <Button Text="1" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+           BackgroundColor="#FF0000"
+           BorderColor="#B73C32"
+           BorderWidth="2"
+           FontSize="14"
+           CornerRadius="8"
+           FontAttributes="Bold"
+           Clicked="ButtonClicked" />
+
+        <Button Text="2" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+           BackgroundColor="#00DBFF"
+           BorderColor="#02B1CE"
+           BorderWidth="2"
+           FontSize="14"
+           CornerRadius="8"
+           FontAttributes="Bold"
+           Clicked="ButtonClicked" />
+
+        <Button Text="3" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+           BackgroundColor="#00FF1C"
+           BorderColor="#06CA1B"
+           BorderWidth="2"
+           FontSize="14"
+           CornerRadius="8"
+           FontAttributes="Bold"
+           Clicked="ButtonClicked" />
+
+        <Button Text="4" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+           BackgroundColor="#FFE300"
+           BorderColor="#DFC808"
+           BorderWidth="2"
+           FontSize="14"
+           CornerRadius="8"
+           FontAttributes="Bold"
+           Clicked="ButtonClicked" />
+        
+        <Button Text="5" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+           BackgroundColor="#EB00FF"
+           BorderColor="#C406D5"
+           BorderWidth="2"
+           FontSize="14"
+           CornerRadius="8"
+           FontAttributes="Bold"
+           Clicked="ButtonClicked" />
+        
+        <Label Text="Creat de Anca Adrian" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>
