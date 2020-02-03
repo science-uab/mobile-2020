@@ -12,7 +12,7 @@ Creata dupa modelul MVC.
 ## Sistem:
 * Ca sistem de operare ruleaza pe: Android.
 * Tehnologii folosite (inclusiv biblioteci externe): Unity, C#. 
-* Cerinte hardware minimale: Android 6, 4GB RAM, procesor: octa-core.
+* Cerinte hardware minimale: Android 8, 4GB RAM, procesor: octa-core.
 * Cum ruleaza: Unity->File-> Build Settings-> Android->Build. 
 Fisierul creat se transfera pe telefon, unde aceasta se instaleaza ca o aplicatie normala.
 
