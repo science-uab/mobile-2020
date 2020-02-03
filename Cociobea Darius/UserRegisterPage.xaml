@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="User Registration Page"
+             BackgroundColor="DarkSlateGray"
+             x:Class="MoveMe.UserRegisterPage">
+    <StackLayout Margin="10, 10, 10, 0">
+        <Label TextColor="#77d065" FontSize = "30" Text="User Registration" HorizontalTextAlignment="Center" Margin="0, 0, 0, 30"/>
+        <Label TextColor="#77d065" Text="First Name" Margin="5, 0, 0, 0"/>
+        <Entry x:Name="firstName" Placeholder="Please enter your first name" />
+        <Label TextColor="#77d065" Text="Last Name" Margin="5, 0, 0, 0"/>
+        <Entry x:Name="lastName" Placeholder="Please enter your last name" />
+        <Label TextColor="#77d065" Text="Email Address" Margin="5, 0, 0, 0" />
+        <Entry x:Name="email" Placeholder="Please enter your email address" />
+        <Label TextColor="#77d065" Text="Password" Margin="5, 0, 0, 0" />
+        <Entry x:Name="password" Placeholder="Please enter your password" IsPassword="True"/>
+        <Button Text="Register" TextColor="#77d065" Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>
