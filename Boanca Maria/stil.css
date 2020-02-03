@@ -1,0 +1,10 @@
+#body{background: brown;}
+h1{font: arial; background:white;width:90%;}
+#clearbutton {
+    font-size: 15px;
+    width:20%;
+	padding:2.5%;
+    -webkit-appearance: none;
+    background: #eee;
+    border: 1px solid #888;
+}
