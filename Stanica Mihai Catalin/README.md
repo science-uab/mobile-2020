@@ -14,4 +14,4 @@ Build: pentru web.
 
 Foloseste: HTML5, JavaScript.
 
-![](imagine/pozica.png)
+![](imagine/pozica.jpg)
