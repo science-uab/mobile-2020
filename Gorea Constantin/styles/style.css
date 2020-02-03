@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+
+body 
+{
+	background-color: #f5f5dc;
+}
+
+#div_busola
+{
+	display: flex;	
+	background-color: #f5f5dc;
+	padding: 0px auto 0px auto;
+	margin: 75px auto 0px auto;
+}
+
+#busola
+{
+	width: 85%;
+	padding: auto;
+	margin: auto;
+}
+
+#titlu 
+{
+	font-size: 30px;
+	text-align: center;
+	color: #006400;
+	font-family: "Verdana";
+	border-bottom: 5px dotted #ffff00;
+}
+
+.versiune 
+{
+	
+	position:absolute;
+	top: 550px;
+	left: 260px;
+}
+
+#coordonate 
+{
+	
+	position:absolute;
+	top: 542px;
+	left: 152px;
+}
+
+#soare 
+{
+	
+	position:absolute;
+	top: 542px;
+	left: 44px;
+}
+
+#id_UI 
+{
+	visibility: hidden;
+}
+	
+#id_logic
+{
+	visibility: hidden;
+}	
+	
+#id_geo
+{
+	text-align: center;
+	margin-top: 50px;
+	font-family: "Verdana";
+	font-size: 20px;
+	color: #800000;
+}	
+	
+}
