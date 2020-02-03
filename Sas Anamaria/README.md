@@ -17,6 +17,7 @@ Creata dupa modelul MVC.
 Fisierul creat se transfera pe telefon, unde aceasta se instaleaza ca o aplicatie normala.
 
 Surse externe: 
+
  https://www.luxoft-training.ro/articole/cum-dezvoltam-aplicatii-mobile-instrumente-de-dezvoltare/ 
  
  https://forum.unity.com/threads/problem-with-a-jump-script.501276/ 
