@@ -1,0 +1,101 @@
+<!DOCTYPE resources [<!ENTITY appname "Dots And Boxes (Biscuite)">]>
+<resources>
+
+
+    <!--admob id-->
+    <string name="ad_mob_id">ca-app-pub-7897516872608980~4206812860</string>
+    <string name="banner_id">ca-app-pub-7897516872608980/4945179461</string>
+    <string name="interstitial_id">ca-app-pub-7897516872608980/7926566023</string>
+
+    <!--admob test id-->
+    <string name="ad_mob_test_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_test_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_test_id">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <string name="app_name">&appname;</string>
+
+    <string name="str_update_message">It seems you do not have the latest version of &appname;, please update it now.</string>
+
+    <string name="dot_box"><![CDATA[Dots & Boxes (Biscuite)]]></string>
+    <string name="home_screen">Acasă</string>
+    <string name="choose_grid_size">Alege dimensiunea grilei:</string>
+    <string name="me">Eu</string>
+    <string name="robot">Computer</string>
+    <string name="versus">Vs</string>
+    <string name="friend">Prieten</string>
+    <string name="row">Rânduri</string>
+    <string name="default_row">4</string>
+    <string name="column">Coloane</string>
+    <string name="default_column">4</string>
+
+    <string name="pref_key_sound">pref_sound</string>
+    <string name="pref_key_music">pref_music</string>
+    <string name="pref_key_vibrate">pref_vibrate</string>
+    <string name="player1TurnName">Tura\</string>
+    <string name="player2TurnName">Computer-\</string>
+    <string name="turn_text">2</string>
+    <string name="player_turn_text">lui</string>
+    <string name="win">Câștigat</string>
+    <string name="tie">Remiză</string>
+    <string name="lost">Pierdut</string>
+    <string name="you">Tu</string>
+    <string name="score_default">0</string>
+    <string name="choose_turn_text">Cine începe?</string>
+    <string name="your_turn">Tura ta</string>
+    <string name="play">Joacă</string>
+    <string name="set_players_name">Setează numele player-ului</string>
+    <string name="set_your_name">Setează numele tău</string>
+    <string name="set_your_opponent_name">Setează numele oponentului</string>
+    <string name="home">Acasă</string>
+    <string name="enter_your_name">Numele tău</string>
+    <string name="enter_opponent_name">Numele oponentului</string>
+    <string name="history_screen">Istoric</string>
+    <string name="history_sample_time">Acum o zi</string>
+    <string name="profile">Profil</string>
+    <string name="game_played">Jucat</string>
+    <string name="win_new">Câștig</string>
+    <string name="win_percentage">Procent câștig</string>
+    <string name="save">Salvează</string>
+    <string name="please_enter_name">Numele tău</string>
+
+    <string name="something_went_wrong">Ceva nu a mers bine!</string>
+    <string name="app_has_no_permission_to_capture_photo">Aplicația nu are destule permisiuni pentru poză</string>
+    <string name="app_has_no_permission_for_gallery">Aplicațtia nu are permisiuni!</string>
+    <string name="select_picture">Selectează poză</string>
+    <string name="str_take_photo">Fă poză</string>
+    <string name="str_choose_from_library">Alege din galerie</string>
+    <string name="str_choose_picture">Alege!</string>
+    <string name="history_sample_score">2:3</string>
+    <string name="setting_sound">Sunet</string>
+    <string name="setting_music">Muzică</string>
+    <string name="settings_screen">Setări</string>
+    <string name="setting_vibrate">Vibrații</string>
+    <string name="how_to_screen">Cum se joacă</string>
+    <string name="connect_to_facebook">Connectează cu Facebook</string>
+    <string name="you_won">Ai câștigat</string>
+    <string name="score">Scor</string>
+    <string name="better_luck_next_time">Baftă data viitoare</string>
+    <string name="draw">Renunță</string>
+    <string name="cancel">Oprește</string>
+    <string name="four_by_four">4 : 4</string>
+    <string name="five_by_five">5 : 5</string>
+    <string name="six_by_six">6 : 6</string>
+    <string name="seven_by_seven">7 : 7</string>
+    <string name="eight_by_eight">8 : 8</string>
+    <string name="nine_by_nine">9 : 9</string>
+    <string name="ten_by_ten">10 : 10</string>
+    <string name="game_exit">Ești sigur că vrei să ieși?</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="should_not_same">numele nu pot fi la fel</string>
+    <string name="your_name_is_greater">Maxim 8 caractere permise!</string>
+    <string name="opponent_name_is_greater">Numele tău ar trebui să fie maxim 8 caractere</string>
+    <string name="no_history">Niciun istoric</string>
+    <string name="update">Update</string>
+    <string name="privacy_policy">Politică de confidenșialitate</string>
+    <string name="pref_key_privacy_policy">pref_privacy_policyE</string>
+    <string name="share_app">https://play.google.com/store/apps/details?id=com.dotsandboxes</string>
+
+
+</resources>
