@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html id="id_page">
+<body>
+<head>
+<title> Learning Maths</title>
+</head>
+<body id="pagina" style="background-color:powderblue;">
+<style>
+p, ul, li, div, nav { padding:0; margin:0; } body { font-family:Calibri; } #menu { overflow: auto; position:relative; z-index:2; } .parent-menu { background-color: #0c8fff; min-width:200px; float:left; } #menu ul { list-style-type:none; } #menu ul li a { padding:10px 15px; display:block; color:#fff; text-decoration:none; } #menu ul li a:hover { background-color:#007ee9;}
+#menu ul li:hover > ul { left: 200px; -webkit-transition: left 200ms ease-in; -moz-transition: left 200ms ease-in; -ms-transition: left 200ms ease-in; transition: left 200ms ease-in; } #menu ul li > ul { position: absolute; background-color: #333; top: 0; left: -200px; min-width: 200px; z-index: -1; height: 100%; -webkit-transition: left 200ms ease-in; -moz-transition: left 200ms ease-in; -ms-transition: left 200ms ease-in; transition: left 200ms ease-in; } #menu ul li > ul li a:hover { background-color:#2e2e2e; }
+</style>
+<nav id="menu">
+ <ul class="parent-menu"> 
+ <li><a href="Clasa_a_VI_a.html">Meniu clasa a VI-a</a> </li>
+ <li><a href="Test_geometrie_VI.html">Test geometrie clasa a VI-a</a></li>
+ </ul>
+</nav>
+<canvas width ="300" height="150" id="id_canvas" style="border:1px solid #d3d3d3; position:absolute;top:200px;"></canvas>
+<video id="vdisk"  width="320" height="240"  controls src="unghiuri.mp4" STYLE="position:absolute; TOP:55px; LEFT:500px; WIDTH:400px; HEIGHT:300px">
+</video>
+<br>
+<button id="buton_desenare" type="button" style="position:absolute;top:400px">Deseneaza unghi</button>
+<script src="desenare_unghi.js"></script>
+</body>
+</html>
