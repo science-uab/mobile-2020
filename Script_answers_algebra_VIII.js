@@ -1,0 +1,91 @@
+document.getElementById("submit_btn_algebra_VIII").addEventListener("click",get_checked_1);
+document.getElementById("submit_btn_algebra_VIII").addEventListener("click",get_checked_2);
+document.getElementById("submit_btn_algebra_VIII").addEventListener("click",get_checked_3);
+document.getElementById("submit_btn_algebra_VIII").addEventListener("click",get_checked_4);
+document.getElementById("submit_btn_algebra_VIII").addEventListener("click",get_grade);
+s=2;
+function get_checked_1()
+{
+	if(document.getElementById("a1q1").checked==1)
+	{
+		x=document.getElementById("a1q1").value;
+	}
+	if(document.getElementById("a2q1").checked==1)
+	{
+		x=document.getElementById("a2q1").value;
+	}
+	if(document.getElementById("a3q1").checked==1)
+	{
+		x=document.getElementById("a3q1").value;
+	}
+	if(document.getElementById("a4q1").checked==1)
+	{
+		x=document.getElementById("a4q1").value;
+	}
+	if(x=="2") s=s+2;
+}
+function get_checked_2()
+{
+	if(document.getElementById("a1q2").checked==1)
+	{
+		y=document.getElementById("a1q2").value;
+	}
+	if(document.getElementById("a2q2").checked==1)
+	{
+		y=document.getElementById("a2q2").value;
+	}
+	if(document.getElementById("a3q2").checked==1)
+	{
+		y=document.getElementById("a3q2").value;
+	}
+	if(document.getElementById("a4q2").checked==1)
+	{
+		y=document.getElementById("a4q2").value;
+	}
+	if(y=="8")s=s+2;
+}
+function get_checked_3()
+{
+	if(document.getElementById("a1q3").checked==1)
+	{
+		z=document.getElementById("a1q3").value;
+	}
+	if(document.getElementById("a2q3").checked==1)
+	{
+		z=document.getElementById("a2q3").value;
+	}
+	if(document.getElementById("a3q3").checked==1)
+	{
+		z=document.getElementById("a3q3").value;
+	}
+	if(document.getElementById("a4q3").checked==1)
+	{
+		z=document.getElementById("a4q3").value;
+	}
+	if(z=="11")s=s+2;
+}
+function get_checked_4()
+{
+	if(document.getElementById("a1q4").checked==1)
+	{
+		w=document.getElementById("a1q4").value;
+	}
+	if(document.getElementById("a2q4").checked==1)
+	{
+		w=document.getElementById("a2q4").value;
+	}
+	if(document.getElementById("a3q4").checked==1)
+	{
+		w=document.getElementById("a3q4").value;
+	}
+	if(document.getElementById("a4q4").checked==1)
+	{
+		w=document.getElementById("a4q4").value;
+	}
+	if(w=="15")s=s+2;
+}
+function get_grade()
+{
+	  alert ("Nota algebra clasa a VIII-a: " + s+" ! ");
+	  
+}
