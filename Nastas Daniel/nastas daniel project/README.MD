@@ -25,4 +25,4 @@ Ejs - Template Engine
 
 
 
-![Rularea Programului](/Nastas Daniel/nastas daniel project/Captură.PNG)
+![Rularea Programului](/mobile-2020/Nastas Daniel/nastas daniel project/Captură.PNG)
