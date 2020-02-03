@@ -25,4 +25,4 @@ Ejs - Template Engine
 
 
 
-![Rulare Program](/Captură.PNG)
+![Rularea Programului](Captură.PNG)

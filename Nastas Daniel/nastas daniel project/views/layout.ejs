@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>UAB Info anul III</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="/images/logo.png" width="40" height="49" class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/">Anunturi</a>
+                    </li>
+                    <li>
+                        <a href="/orar">Orar</a>
+                    </li>
+                    <li>
+                        <a href="/camera">Camera</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="container">
+        <%-body%>
+    </main>
+    <footer class="container text-muted text-center text-small">
+        <p>© Copyright 2020</p>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script>
+        $('#editInfoForm').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var anunt_content = button.data('anunt_content')
+            var anunt_titlu = button.data('anunt_titlu')
+            var anunt_id = button.data('anunt_id')
+            var modal = $(this)
+            modal.find('.modal-body #title').val(anunt_titlu)
+            modal.find('.modal-body #message').val(anunt_content)
+            modal.find('.modal-body form').attr("action", "/api/v1/anunturi/edit/" + anunt_id)
+        })
+    </script>
+  </body>
+</html>
