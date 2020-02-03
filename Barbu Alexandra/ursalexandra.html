@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HTML5 RETETE</title>
+	<meta charset="utf-8"/>
+	
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>	
+
+<body>
+	<div id="container">
+		<h2>Pacient: Urs Alexandra</h2>
+		<div class="leftcolumn">
+			<h4>Reteta eliberata de medic:</h4>
+			<p><button  onclick="myCanvas()">Arata reteta</button></p>
+			
+			<canvas id="myCanvas" width="300" height="250"
+			 style="border:1px solid black;">Canvas tag is not supported</canvas>
+			 
+			<img id="med" src="med.jpg" width="0" height="0"> 
+		</div>
+		
+		<div class="rightcolumn">
+			
+			<h4>Reteta eliberata de farmacie:</h4>
+			<div style="text-align:center"> 
+				<button type ="button" id = "id_button"> Start </button>
+				<button onclick="makeBig()">Big</button>
+				<button onclick="makeSmall()">Small</button>
+				<button onclick="makeNormal()">Normal</button>
+				<br><br>
+			</div> 
+			
+			<video height = "300" width="250" autoplay controls id="id_video">Video tag is no supported</video>
+			<canvas height = "300" width = "250" id ="id_canvas">Canvas tag is not supported</canvas>			
+        </div>
+		
+		<a href="index.html" class="button">Lista pacienti: </a> 
+	</div>
+	<script src="js/cam.js"></script>
+</body>
+</html>
