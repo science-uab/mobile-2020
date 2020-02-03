@@ -107,8 +107,9 @@ struct NewRecipe: View {
                         
                          self.showingAlert = true
                         
-                       // print(self.image!)
-                        print(self.recipe.ingredients)
+                        
+                        
+                       
                             }) {
                                 HStack(spacing: 2.0) {
                                     Spacer()
@@ -125,7 +126,7 @@ struct NewRecipe: View {
                             }
                     .accentColor(.green)
                     .alert(isPresented: $showingAlert) {
-                        Alert(title: Text("Success"), message: Text("a new recipe has been added"), dismissButton: .default(Text("Cool!")))
+                        Alert(title: Text("Success"), message: Text("A new recipe has been added"), dismissButton: .default(Text("Cool!")))
                 }
             
             
