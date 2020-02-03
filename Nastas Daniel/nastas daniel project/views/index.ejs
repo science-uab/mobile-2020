@@ -1,0 +1,74 @@
+<div class="row">
+    <div class="col-xs-5">
+        <h2>Anunturi:</h2>
+    </div>
+    <div class="col-xs-7">
+        <br>
+        <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#addInfoForm">Posteaza un Anunt nou</button>
+    </div>
+</div>
+ <div class="row">
+   <% anunturi.forEach(function(anunt) { %>
+   <div class="panel panel-default">
+       <div class="panel-heading"><h4   ><%= anunt.title_anunt %></h4></div>
+     <div class="panel-body">
+       <%= anunt.content_anunt %>
+     <hr>
+     <button type="button" class="btn btn-primary btn-xs col-xs-4" data-toggle="modal" data-anunt_id="<%= anunt.id %>" data-anunt_content="<%= anunt.content_anunt %>" data-anunt_titlu="<%= anunt.title_anunt %>" data-target="#editInfoForm">Edit</button>
+     <form method="post" action="/api/v1/anunturi/delete/<%= anunt.id %>">
+         <button type="submit" class="btn btn-danger btn-xs col-xs-4 col-xs-offset-4">Sterge</button>
+     </form>
+     </div>
+   </div>
+   <% }); %>
+ </div>
+
+<div class="modal fade" id="editInfoForm" tabindex="-1" role="dialog" aria-labelledby="editInfoForm">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Editare anunt:</h4>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="/api/v1/anunturi/edit/">
+                    <div class="form-group">
+                        <label for="recipient-name" class="control-label">Titlu:</label>
+                        <input type="text" class="form-control" name="title_anunt" id="title">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">Content:</label>
+                        <textarea class="form-control" id="message" name="content_anunt"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Salveaza</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Inchide</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <div class="modal fade" id="addInfoForm" tabindex="-1" role="dialog" aria-labelledby="addInfoForm">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h4 class="modal-title">Anunt Nou</h4>
+             </div>
+             <div class="modal-body">
+                 <form method="post" action="/api/v1/anunturi">
+                     <div class="form-group">
+                         <label for="recipient-name" class="control-label">Titlu:</label>
+                         <input type="text" class="form-control" name="title_anunt" id="recipient-name">
+                     </div>
+                     <div class="form-group">
+                         <label for="message-text" class="control-label">Content:</label>
+                         <textarea class="form-control" id="message-text" name="content_anunt"></textarea>
+                     </div>
+                     <button type="submit" class="btn btn-primary">Salveaza</button>
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Inchide</button>
+                 </form>
+             </div>
+         </div>
+     </div>
+ </div>
