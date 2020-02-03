@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="DarkSlateGray"
+             Title="Company List Page"
+             x:Class="MoveMe.CompanyListPage">
+    <StackLayout Padding="10, 5, 10, 0">
+        <Frame Padding="0" OutlineColor="DarkGray" HasShadow="True" HorizontalOptions="FillAndExpand"  VerticalOptions="Center" BackgroundColor="AliceBlue">
+            <SearchBar x:Name="searchBar" Placeholder="Search city" PlaceholderColor="LightGray" TextColor="#000000" HorizontalOptions="FillAndExpand" VerticalOptions="Center" TextChanged="SearchBar_TextChanged"/>
+        </Frame>
+        <ListView x:Name="companyListView"
+                  ItemsSource="{Binding companies}"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None"
+                  HorizontalOptions="FillAndExpand"
+                  VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Tapped="ViewCell_Tapped">
+                        <StackLayout Margin="6,4,6,4"
+                                     BackgroundColor="#77d065">
+                            <Label Text="{Binding companyName}"
+                                   Margin="8,2,8,2"
+                                   FontAttributes="Bold"
+                                   FontSize="Large"/>
+                            <Label x:Name="cityName" Text="{Binding city}"
+                                   Margin="8,2,8,2"
+                                   FontSize="Medium"/>
+                            <Label Text="{Binding address}"
+                                   Margin="8,2,8,2"
+                                   FontSize="Medium"/>
+                            <Label Text="{Binding feePerKm, StringFormat='{}{0:N} Lei/Km'}"
+                                   Margin="8,2,8,2"
+                                   FontSize="Small"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

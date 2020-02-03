@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Company Registration Page"
+             BackgroundColor="DarkSlateGray"
+             x:Class="MoveMe.CompanyRegisterPage">
+    <ScrollView>
+        <StackLayout Margin="10, 10, 10, 0">
+            <Label TextColor="#77d065" FontSize = "30" Text="Company Registration" HorizontalTextAlignment="Center" Margin="0, 0, 0, 30"/>
+            <Label TextColor="#77d065" Text="Company Name" Margin="5, 0, 0, 0"/>
+            <Entry x:Name="companyName" Placeholder="Please enter your company name" />
+            <Label TextColor="#77d065" Text="Email Address" Margin="5, 0, 0, 0"/>
+            <Entry x:Name="emailAddress" Placeholder="Please enter your email address" />
+            <Label TextColor="#77d065" Text="Company Address" Margin="5, 0, 0, 0" />
+            <Entry x:Name="companyAddress" Placeholder="Please enter your company address" />
+            <Label TextColor="#77d065" Text="City" Margin="5, 0, 0, 0" />
+            <Entry x:Name="city" Placeholder="Please enter your company city" />
+            <Label TextColor="#77d065" Text="Fee Per Km" Margin="5, 0, 0, 0" />
+            <Entry x:Name="feePerKm" Placeholder="Please enter your fee per Km" />
+            <Label TextColor="#77d065" Text="Password" Margin="5, 0, 0, 0" />
+            <Entry x:Name="password" Placeholder="Please enter your password" IsPassword="True"/>
+            <Button Text="Register" TextColor="#77d065" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
