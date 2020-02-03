@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html id="id_page">
+<body>
+<head>
+<title> Learning Maths</title>
+</head>
+<body style="background-color:powderblue;">
+<style>
+p, ul, li, div, nav { padding:0; margin:0; } body { font-family:Calibri; } #menu { overflow: auto; position:relative; z-index:2; } .parent-menu { background-color: #0c8fff; min-width:200px; float:left; } #menu ul { list-style-type:none; } #menu ul li a { padding:10px 15px; display:block; color:#fff; text-decoration:none; } #menu ul li a:hover { background-color:#007ee9;}
+#menu ul li:hover > ul { left: 200px; -webkit-transition: left 200ms ease-in; -moz-transition: left 200ms ease-in; -ms-transition: left 200ms ease-in; transition: left 200ms ease-in; } #menu ul li > ul { position: absolute; background-color: #333; top: 0; left: -200px; min-width: 200px; z-index: -1; height: 100%; -webkit-transition: left 200ms ease-in; -moz-transition: left 200ms ease-in; -ms-transition: left 200ms ease-in; transition: left 200ms ease-in; } #menu ul li > ul li a:hover { background-color:#2e2e2e; }
+</style>
+<nav id="menu">
+ <ul class="parent-menu"> 
+ <li><a href="Clasa_a_VII_a.html">Meniu clasa a VII-a</a> </li>
+ <li><a href="Meniu_principal.html">Meniu principal</a></li>
+ </ul>
+</nav>
+<p style="font-family:courier;font-size:300%;text-align:center;color:#B404AE">Testare algebra clasa a VII-a</p>
+<p style="font-family:courier;font-size:100%;text-align:center;color:#B404AE;position:absolute; TOP:200px; LEFT:20px; WIDTH:1400px; HEIGHT:300px">1.Determinati doua numere reale a si b, avand in vedere ca media lor aritmetica este 21√5 si ca numarul a este de doua ori mai mare decat b</p>
+     <form  id="question1" action="/action_page.php" style="position:absolute; TOP:250px; LEFT:50px; WIDTH:100px; HEIGHT:30px;color:#B404AE">
+  <input type="checkbox" name="question1" id="a1q1" value="1">28√5,13√5<br>
+  <input type="checkbox" name="question1" id="a2q1" value="2">29√5,14√5<br>
+  <input type="checkbox" name="question1" id="a3q1" value="3">28√5,14√5<br>
+  <input type="checkbox" name="question1" id="a4q1" value="4">29√5,13√5<br>
+  </form>
+<p style="font-family:courier;font-size:100%;text-align:center;color:#B404AE;position:absolute; TOP:350px; LEFT:-30px; WIDTH:600px; HEIGHT:300px">2.Descompuneti in factori (4*x+1)^2-(2*x+3)^2</p> 
+  <form  id="question2" action="/action_page.php" style="position:absolute; TOP:400px; LEFT:50px; WIDTH:110px; HEIGHT:30px;color:#B404AE">
+  <input type="checkbox" name="question2" id="a1q2" value="5">12*x^2-4*x-8<br>
+  <input type="checkbox" name="question2" id="a2q2" value="6">x(12*x-4)-8<br>
+  <input type="checkbox" name="question2" id="a3q2" value="7">(4*x+3)^2<br>
+  <input type="checkbox" name="question2" id="a4q2" value="8">(2*x+1)^2<br>
+  </form>
+  <p style="font-family:courier;font-size:100%;text-align:center;color:#B404AE;position:absolute; TOP:500px; LEFT:-30px; WIDTH:250px; HEIGHT:300px">3.Daca 7<x+2<9 , x=?</p>
+      <form  id="question3" action="/action_page.php" style="position:absolute; TOP:550px; LEFT:50px; WIDTH:100px; HEIGHT:30px;color:#B404AE">
+  <input type="checkbox" name="question3" id="a1q3" value="9">6<br>
+  <input type="checkbox" name="question3" id="a2q3" value="10">7<br>
+  <input type="checkbox" name="question3" id="a3q3" value="11">8<br>
+  <input type="checkbox" name="question3" id="a4q3" value="12">8<br>
+  </form>
+  <p style="font-family:courier;font-size:100%;text-align:center;color:#B404AE;position:absolute; TOP:650px; LEFT:-130px; WIDTH:470px; HEIGHT:300px">4.(2*x+3)^2</p>
+<form  id="question4" action="/action_page.php" style="position:absolute; TOP:700px; LEFT:50px; WIDTH:150px; HEIGHT:30px;color:#B404AE">
+  <input type="checkbox" name="question4" id="a1q4" value="13">4*x^2+9<br>
+  <input type="checkbox" name="question4" id="a2q4" value="14">2*x^2+9<br>
+  <input type="checkbox" name="question4" id="a3q4" value="15">4*x^2+3*x+9<br>
+  <input type="checkbox" name="question4" id="a4q4" value="16">4*x^2+12*x+9<br>
+  </form>
+ <button type="button" id="submit_btn_algebra_VII" style="position:absolute; TOP:850px; LEFT:550px; WIDTH:70px; HEIGHT:30px">SUBMIT</button> 
+ <script src="Script_answers_algebra_VII.js"></script>
+</body>
+</html>
