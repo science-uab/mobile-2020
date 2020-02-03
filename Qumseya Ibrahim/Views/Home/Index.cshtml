@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2>Index</h2>
+Welcome @HttpContext.Current.User.Identity.Name
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("Logout", "User", FormMethod.Post, new { id = "logoutForm" }))
+    {
+        <a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
+        <video width="200" height="200" id="video"></video>
+        <button id="startbutton">Take photo</button>
+        <br />
+        <canvas id="canvas">
+        </canvas>
+        <div class="output">
+            <img id="photo" alt="The screen capture will appear in this box.">
+        </div>
+
+
+    }
+}
+
+@section Scripts{
+    <script src="~/Scripts/cam.js"></script>
+ 
+}
