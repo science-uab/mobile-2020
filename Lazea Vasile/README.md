@@ -9,3 +9,5 @@ Aplicatia acceseaza camera telefonului si permite sa faca poze pe care le stoche
 * Javascript
 * CSS
 * NodeJS with NPM
+
+![alt text](https://github.com/lazea1997/camera/blob/master/camera%202.png)
