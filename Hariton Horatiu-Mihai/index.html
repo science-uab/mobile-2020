@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gyroscope</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="    ">
+    <meta name="keywords" content="    ">
+    <meta name="author" content="Austin Rognes">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:800&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 id="debug">Gyroscope </h1>
+<div class="nav">
+    <button id="begin" class="btn" onclick="begin()">Start</button>
+    <button id="stop" class="btn" onclick="stop()">Stop</button>
+</div>
+<div class="info">
+    <p id="beta">Beta</p>
+    <p id="gamma">Gamma</p>
+</div>
+
+<div class="main">
+    <div class="top">
+        <canvas id="canvas" width="200" height="200"></canvas>
+    </div>
+    <div class="bottom">
+        <div id="root"></div>
+    </div>
+</div>
+<script src="gyro.js"></script>
+<script src="mvc.js"></script>
+</body>
+</html>
