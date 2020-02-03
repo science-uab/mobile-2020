@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+*{
+    
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Nunito Sans',sans-serif;
+    outline: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+    
+}
+body{
+    background-color: #f5f5f5;
+}
+html,body,#root{
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+.ScrollbarsCustom-Thumb ,.ScrollbarsCustom-ThumbY{
+    background-color: #f35 !important;
+}
+.ScrollbarsCustom-Content{
+    padding-right: 15px !important;
+    text-align: justify;
+}
+.ScrollbarsCustom-Track, .ScrollbarsCustom-TrackY{
+    top: 0;
+    height: 100%;
+}
+.MuiRating-root{
+    color:#f35 !important;
+}
+
+.react-modal-body-close{
+    display: none;
+}
+.animate-modal-overlay-enter-done{     
+    pointer-events: none;
+}
+.MuiInput-underline::after{
+    border-bottom-color: #f35 !important;
+}
+@media (hover: none){
+    .MuiListItem-button:hover {
+    background-color: #f35 !important;
+    color: white !important;
+    border-radius: 4px;
+}
+}
+
+.MuiLink-underlineHover:hover{
+    text-decoration: none !important;
+}
+.rodal-dialog, .rodal-zoom-leave{
+    z-index: 10000;
+    overflow: auto;
+    touch-action: none;
+}
+.rodal{
+    z-index: 9999;
+    touch-action: none;
+}
+.rodal-dialog{
+    display: flex;
+    flex-direction: column;
+    touch-action: none;
+    border-radius: 8px;
+}
+
+.rodal-dialog body, .rodal-zoom-leave body, .rodal body{
+    position: fixed;
+}
+
+.rodal-mask{
+    z-index: -1;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+    touch-action: none;
+}
+
+.modal-open{
+    overflow: hidden !important;
+}
