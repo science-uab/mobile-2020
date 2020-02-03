@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+        android:id="@+id/item_parent"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/circle_image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:text="Food Name"
+            android:id="@+id/name"
+            android:layout_toRightOf="@id/circle_image"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="17dp"
+            android:maxLines="1"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+
+            />
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/circle_image"
+            android:text="Prepare Time"
+            android:layout_alignParentLeft="true"
+            android:maxLines="1"
+            android:id="@+id/duration"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Difficulty"
+            android:layout_toRightOf="@+id/duration"
+            android:layout_below="@id/circle_image"
+            android:id="@+id/difficulty"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
