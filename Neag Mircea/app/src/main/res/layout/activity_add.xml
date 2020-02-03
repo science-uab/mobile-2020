@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".l1_view.AddActivity"
+    android:padding="10dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Nume Reteta"
+                android:inputType="text"
+                android:id="@+id/activity_add_title"/>
+
+            <EditText
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="URL Imagine"
+                android:inputType="text"
+                android:ellipsize="end"
+                android:id="@+id/activity_add_URL"/>
+
+            <EditText
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Timp Necesar"
+                android:inputType="text"
+                android:ellipsize="end"
+                android:id="@+id/activity_add_duration"/>
+
+            <EditText
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Dificultate"
+                android:inputType="text"
+                android:ellipsize="end"
+                android:id="@+id/activity_add_difficulty"/>
+
+            <EditText
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Reteta"
+                android:inputType="textMultiLine"
+                android:ellipsize="end"
+                android:id="@+id/activity_add_recipe"/>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</RelativeLayout>
