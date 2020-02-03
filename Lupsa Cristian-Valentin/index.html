@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+
+<body>
+	<img class="logo" src="/logo.jpg">
+
+	<div id="main">
+		<input type="file" accept="image/*" id="poza" name="poza" hidden>
+
+		<div id="error"></div>
+		<div id="date">Date and Time:</div>
+		<div id="time"></div>
+		<div id="loading">Uploading picture ...</div>
+<br>
+		<button class="uplbtn" id="upload" type="button" name="button">Upload Image</button>
+<br>
+		<div class="preview">
+			<img src="" id="preview_picture" />
+		</div>
+
+		<div class="preview">
+			<button class="uplbtn" id="upload_server" name="button">UPLOAD</button>
+			<button class="uplbtn" id="delete_preview" name="button">REMOVE</button>
+		</div>
+<br>
+
+		<div id="galerie"></div>
+	</div>
+
+
+	<script type="text/javascript" src="js/schimba_ceas.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/view.js"></script>
+	<script type="text/javascript" src="js/model.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+</body>
+
+</html>
