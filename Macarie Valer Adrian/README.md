@@ -1,4 +1,4 @@
-Nume proiect: Aplicatie camera
+Nume proiect: Aplicatie camera 
 
 Autor: Macarie Valer Adrian
 
@@ -10,4 +10,5 @@ Am folosit in aplicatia mea codurile din cadrul laboratoarelor si ca surse am ma
 
 https://davidwalsh.name/browser-camera
 https://www.html5rocks.com/en/tutorials/getusermedia/intro/
-https://www.w3schools.com/tags/tag_button.asp
+https://www.w3schools.com/tags/tag_button.as
+![alt text](https://github.com/AdrianMacarie/AdrianMacarie.github.io/blob/master/WhatsApp%20Image%202020-02-03%20at%2013.33.35.jpeg)
