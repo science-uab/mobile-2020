@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<script src="map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAayj2Rr1b5WBiv0MkiypI9Iq4mNpE3S4&callback=initMap" async defer></script>
+  <script src="busola.js"></script>
+  <p>
+<script type="text/javascript">
+
+function ceas() {
+  var Digital=new Date()
+  var hours=Digital.getHours()     
+  var minutes=Digital.getMinutes()     
+  var seconds=Digital.getSeconds()     
+  var dn="AM"
+  
+  if (hours>12) {
+    dn="PM"
+    hours=hours-12
+  }
+  if (hours==0)
+    hours=12
+  if (minutes<=9)
+    minutes="0"+minutes
+  if (seconds<=9)
+    seconds="0"+seconds
+
+
+  myclock="<font size='4' face='Arial' ><b><font size='1'>Ora curenta</font><br>"+hours+":"+minutes+":"
++seconds+" "+dn+"</b></font>"
+
+  document.getElementById("ceas2").innerHTML=myclock
+  setTimeout("ceas()",1000)   
+}
+window.onload=ceas;     
+
+</script></p>
+
+
+<style type="text/css">
+  	#map {
+  			width: 320px;
+  			height: 320px;
+  	 }
+	p{font-size:60px}
+  </style>
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<div id="map">
+
+
+</div>
+<div><center><p id="heading" ></center></p></div>
+</body>
+</html>
