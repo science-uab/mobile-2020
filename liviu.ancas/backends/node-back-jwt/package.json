@@ -1,0 +1,16 @@
+{
+  "name": "node-back-jwt",
+  "version": "1.0.0",
+  "description": "Java Web Token - AUTH API",
+  "main": "jwtWorker.js",
+  "scripts": {
+    "start": "node jwtWorker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",  
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
