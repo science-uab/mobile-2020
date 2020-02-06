@@ -12,13 +12,12 @@ Pe ce sistem de operare ruleaza: iOS,
 
 Tehnologii folosite (inclusiv biblioteci externe): SwiftUI
 
-Cerinte hardware minimale:(doar in cazuri speciale - de exemplu daca necesita o rezolutie minima de... sau minim 4GB de RAM, etc) SwiftUI poate fi rulat doar pe versiuni iOS incepand cu 13
+Cerinte hardware minimale:(doar in cazuri speciale - de exemplu daca necesita o rezolutie minima de... sau minim 4GB de RAM, etc) SwiftUI poate fi rulat doar pe telefoane cu versiuni iOS incepand cu 13
 
 Cum se compileaza / ruleaza: Xcode
 
 
-Pentru a incepe aplicatia am folosit : [Urmatorul Tutorial](https://www.youtube.com/watch?v=Xetrbmnszjc)
-si [Tutorialele propuse de apple](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
+Pentru a incepe aplicatia am folosit : [Tutorialele propuse de apple](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
 
 Pentru Image-capture functionality  a fost folosit [urmatorul link](https://www.iosapptemplates.com/blog/swiftui/photo-camera-swiftui )
 
@@ -27,4 +26,9 @@ Pentru a implementa Timerul am folosit urmatorul [tutorial](https://medium.com/b
 #### Screenshots
 
 ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6539.PNG) ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6540.PNG) ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6538.PNG)
-![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6536.PNG)
+![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6557.PNG)
+
+##### DarkMode Compatible
+
+![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6555.PNG) ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6556.PNG) 
+
