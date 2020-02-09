@@ -8,6 +8,8 @@
 
 ##### Author : Bogdan Remus Cristian
 ###### Description : Courier application for everyone
+###### Romanian description : Aplicatie de curierat individual. Utilizatorii pot aplica pentru "job"-ul de curier, prin adaugarea unu-i vehicul. Curierii pot sa-si seteze individual preturile pe plicuri/colete sau programul de lucru, de asemenea pot adauga vehicule noi (in cazul in care un curier dispune de masina si bicicleta de exemplu). Utilizatorii pot trimite plicuri/colete cu acei curieri care sunt disponibili. Login-ul este pe baza adresei de e-mail sau cu platformele Google si Faceboook. Daca un utilizator are acelasi mail pe una din cele doua platforme , cu oricare dintre ele s-ar loga, acceseaza acelasi cont. De asemenea utilizatorii pot evalua serviciul curierului pe baza de stelute, de la 1 la 7. Este pastrat un istoric al coletelor trimise sau in procesare pentru utilizatori, iar pentru curieri este pastrat in plus si un istoric al coletelor procesate sau in tranzit. Aplicatia isi propune sa usureze transportul de colete in localitatea utilizatorului indiferent de ora.
+
 ##### Compatibility : All known browsers except "Opera mini"
 ###### Running on : All phones and tablets
 ##### Best resolutions : Fits best on width bigger than 320px and lower 1024px
