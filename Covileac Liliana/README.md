@@ -6,13 +6,17 @@ Nume proiect: MyCookbook
 
 Autor: Liliana Covileac
 
-Descriere: Aplicatia reprezinta o carte de recete. Pastreaza recetele in un fisier JSON iar imaginile sunt incarcate direct in aplicatie. Ofera optiunea de a adauga recete noi, a face o poza la receta pentru a o adauga la receta si un timer(pe care nu am reusit sa al implementez la timp) 
+Descriere: 
+
+
+MyCookbook – aplicație ce rulează pe sistemul IOS versiunea >=13, îți permite să adaugi recetele favorite pentru a le avea la îndemână oricând. Aplicația permite adăugarea ingredientelor, gramajului necesar și a unei descrieri ample a procesului de gătire, acestea fiind convertite în format JSON și stocate în memoria telefonului. Această particularitate permite folosirea aplicației fără o conexiune la internet(WiFi/4g) ceia ce reprezintă un avantaj dacă îți lipseste conexiunea. De asemenea permite adăugarea unei imagini pentru fiecare recetă ce este stocată direct în telefon. Unul din cele mai importante elemente al aplicației îl constitue timerul integrat care îți permite să ții cont de timpul necesar pentru a avea un rezultat nemaipomenit. Aplicația este compatibilă cu inovația de anul asta a companiei Apple – dark mode. Chiar dacă ți-ai pierdut memoria – My Cook Book te va ajuta pas cu pas să pregătești cele mai iubite recete!
+
 
 Pe ce sistem de operare ruleaza: iOS, 
 
-Tehnologii folosite (inclusiv biblioteci externe): SwiftUI
+Tehnologii folosite: SwiftUI
 
-Cerinte hardware minimale:(doar in cazuri speciale - de exemplu daca necesita o rezolutie minima de... sau minim 4GB de RAM, etc) SwiftUI poate fi rulat doar pe telefoane cu versiuni iOS incepand cu 13
+Cerinte hardware/software minimale: SwiftUI poate fi rulat doar pe telefoane cu versiuni iOS incepand cu 13
 
 Cum se compileaza / ruleaza: Xcode
 
